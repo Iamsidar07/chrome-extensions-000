@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    width: 340px;
+    height: 100vh;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 1rem 0;
+}
+
+li {
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+li:nth-child(odd) {
+    background: #80808030;
+}
+
+li:nth-child(even) {
+    background: #ffffff;
+}
+
+h3,
+p {
+    margin: 0;
+}
+h3{
+    color: rgb(190, 18, 190);
+}
+button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.tabfav-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
